@@ -1,4 +1,4 @@
-package com.hedima.modelo;
+package com.hedima.modelo.empresa;
 
 import java.time.LocalDate;
 
@@ -23,5 +23,14 @@ public class Empleado {
         System.out.println("Nombre: "+nombre);
         System.out.println("Sueldo: "+sueldo);
         System.out.println("Fecha de nacimiento: "+fNacimiento);
+    }
+
+    //@Override
+    public String toString() {
+        return "Empleado{" +
+                "nombre='" + nombre + '\'' +
+                ", sueldo=" + sueldo +
+                ", fNacimiento=" + fNacimiento +
+                '}';
     }
 }

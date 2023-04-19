@@ -1,4 +1,4 @@
-package com.hedima.modelo;
+package com.hedima.modelo.empresa;
 
 import java.time.LocalDate;
 
@@ -18,5 +18,12 @@ public class Gerente extends Empleado{
     public void mostrarInfo() {
         super.mostrarInfo();
         System.out.println("Departamento: "+departamento);
+    }
+
+   // @Override
+    public String toString() {
+        return super.toString()+" Gerente{" +
+                "departamentos='" + departamento + '\'' +
+                '}';
     }
 }

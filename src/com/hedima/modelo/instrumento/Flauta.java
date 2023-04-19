@@ -9,6 +9,10 @@ public class Flauta extends InstrumentoMusical{
     @Override
     public void emitirSonido() {
         System.out.println("Sonido de flauta.....");
+    }
 
+    @Override
+    public void afinar() {
+        System.out.println("Estamos afinando la flauta");
     }
 }

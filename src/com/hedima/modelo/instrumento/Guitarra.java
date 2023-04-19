@@ -11,4 +11,9 @@ public class Guitarra extends InstrumentoMusical{
     public void emitirSonido(){
         System.out.println("Sonido de guitarra....");
     }
+
+    @Override
+    public void afinar() {
+
+    }
 }

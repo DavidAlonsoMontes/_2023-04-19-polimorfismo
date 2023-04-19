@@ -18,6 +18,7 @@ public class ProbarIntrumentos {
         InstrumentoMusical[] instrumentos={ins1, ins2, ins3};
         for (InstrumentoMusical i:instrumentos) {
             i.emitirSonido();
+            i.afinar();
         }
 
     }

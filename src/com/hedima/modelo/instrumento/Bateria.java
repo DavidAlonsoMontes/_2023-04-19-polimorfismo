@@ -9,4 +9,9 @@ public class Bateria extends InstrumentoMusical{
     public void emitirSonido(){
         System.out.println("Sonido de bateria...");
     }
+
+    @Override
+    public void afinar() {
+        System.out.println("Estamos afinando la bateria");
+    }
 }

@@ -2,6 +2,7 @@ package com.hedima.modelo.producto;
 
 public class Producto1Necesidad extends Producto{
 
+    protected final double iva=0.04;
     private String tipo;
 
     public Producto1Necesidad() {
@@ -18,7 +19,7 @@ public class Producto1Necesidad extends Producto{
 
     @Override
     public double calcularIva() {
-        return pvp*0.04;
+        return pvp*iva;
     }
 
     public String getTipo() {

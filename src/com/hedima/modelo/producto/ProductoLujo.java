@@ -2,6 +2,7 @@ package com.hedima.modelo.producto;
 
 public class ProductoLujo extends Producto{
 
+    protected final double iva=0.21;
     private String material;
 
     public ProductoLujo() {

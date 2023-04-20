@@ -1,7 +1,8 @@
 package com.hedima.modelo.producto;
 
 public abstract class Producto {
-
+//Añado un identificador a cada producto
+    protected int idProducto;
     protected String nombre;
     protected double pvp;
 

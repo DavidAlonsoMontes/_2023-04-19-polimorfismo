@@ -6,4 +6,5 @@ public abstract class InstrumentoMusical {
 
     }
     public abstract void  emitirSonido();
+    public abstract void afinar();
 }
